@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ملف علي سعد الشخصي ومواصفات حاسبته</title>
+    <!-- تحميل Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dark-red': '#8b0000', // لون أحمر داكن أساسي
+                        'card-bg': '#a50000', // لون أغمق للبطاقات
+                        'accent-light': '#fefefe', // لون فاتح للنصوص
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* خط "Inter" الافتراضي للاتساق */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #8b0000; /* تطبيق اللون الأساسي */
+        }
+    </style>
+</head>
+<body class="bg-dark-red text-accent-light min-h-screen p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto space-y-8">
+
+        <!-- 1. القسم العلوي والترحيب -->
+        <header class="text-center pt-4 pb-6 border-b border-red-600">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-white tracking-wider">مرحبًا بكم في ملف علي سعد</h1>
+            <p class="mt-2 text-xl text-red-200">موطني الرقمي حيث ألتقي بشغفي بالتقنية.</p>
+        </header>
+
+        <!-- 2. بطاقة عني (About Me) -->
+        <div class="bg-card-bg p-6 md:p-8 rounded-xl shadow-2xl border border-red-700 transition duration-300 hover:shadow-red-900/50">
+            <h2 class="text-3xl font-bold mb-4 border-b pb-2 border-red-600">من أنا؟</h2>
+            <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-reverse md:space-x-8">
+                <!-- صورة وهمية -->
+                <img src="https://placehold.co/150x150/ff4d4d/ffffff?text=علي" alt="صورة شخصية وهمية" class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover ring-4 ring-red-400">
+                <div class="text-center md:text-right">
+                    <p class="text-lg leading-relaxed text-red-50">
+                        مرحباً! أنا **علي سعد**، شاب بعمر 18 عامًا لدي شغف كبير بـ **كرة القدم** وتجارب **الألعاب الإلكترونية**. هذا الموقع هو لمحة سريعة عن أدواتي الرقمية ومكان تواجدي على الإنترنت.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. بطاقة مواصفات الحاسوب الشخصي (PC Specs) -->
+        <div class="bg-card-bg p-6 md:p-8 rounded-xl shadow-2xl border border-red-700 transition duration-300 hover:shadow-red-900/50">
+            <h2 class="text-3xl font-bold mb-4 border-b pb-2 border-red-600">مواصفات حاسبة علي سعد (وحش الأداء)</h2>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-lg">
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">المعالج (CPU):</span>
+                    <span class="text-red-200">Core I5 12400F</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">بطاقة الشاشة (GPU):</span>
+                    <span class="text-red-200">RTX 3070Ti 8GB Colorful Battle-Ax</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">الذاكرة العشوائية (RAM):</span>
+                    <span class="text-red-200">16GB DDR4 3600 TFORCE DELTA RGB WH</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">وحدة التخزين (NVMe):</span>
+                    <span class="text-red-200">1TB NM620 LEXAR</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">اللوحة الأم (M.B):</span>
+                    <span class="text-red-200">ASUS PRIME H610M-K D4 ARGB</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">مزود الطاقة (PSU):</span>
+                    <span class="text-red-200">Ruix 650 Bronze</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">المُبرِّد (Cooler):</span>
+                    <span class="text-red-200">Deepcool AG400</span>
+                </li>
+                <li class="flex justify-between items-center p-3 bg-red-700 rounded-lg">
+                    <span class="font-semibold">الصندوق (Case):</span>
+                    <span class="text-red-200">SAMA 205A RGB 4FAN</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 4. بطاقة الحسابات ومنصات التواصل (Accounts) -->
+        <div class="bg-card-bg p-6 md:p-8 rounded-xl shadow-2xl border border-red-700 transition duration-300 hover:shadow-red-900/50">
+            <h2 class="text-3xl font-bold mb-4 border-b pb-2 border-red-600">تجدني هنا (حساباتي الرقمية)</h2>
+            <div class="flex flex-wrap justify-center gap-6">
+
+                <!-- منصة X (تويتر سابقاً) -->
+                <a href="https://x.com/doncoller?s=21" target="_blank" class="flex flex-col items-center p-4 bg-red-700 rounded-xl hover:bg-red-600 transition duration-200 w-32">
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M18.901 1.144h3.68l-8.03 9.774 9.172 12.331H15.01l-6.84-9.215L1.472 23.249H.003L9.693 11.206.007.828h8.636L14.47 8.52 18.902 1.144Zm-1.579 2.155H15.93L5.438 20.916h1.492L17.322 3.3Z"/></svg>
+                    <span class="mt-2 text-sm font-medium">X (تويتر)</span>
+                    <span class="text-xs text-red-300">@DonColler</span>
+                </a>
+
+                <!-- إنستجرام -->
+                <a href="https://www.instagram.com/6yepi?igsh=MW8yNzNmaDN0Mjl0Yg%3D%3D&utm_source=qr" target="_blank" class="flex flex-col items-center p-4 bg-red-700 rounded-xl hover:bg-red-600 transition duration-200 w-32">
+                    <!-- SVG Placeholder for Instagram -->
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2c2.716 0 3.056.012 4.122.062 1.066.05 1.79.22 2.428.465.66.254 1.213.593 1.77.1.558.41.97.94 1.34 1.48.373.54.675 1.12.92 1.83.24.7.41 1.45.46 2.52.05 1.066.06 1.406.06 4.12s-.01 3.056-.06 4.122c-.05 1.066-.22 1.79-.465 2.428-.254.66-.593 1.213-.1 1.77-.41.558-.94.97-1.48 1.34-.54.373-1.12.675-1.83.92-.7.24-1.45.41-2.52.46-.05 1.066-.06 1.406-.06 4.12s.01 3.056.06 4.122c.05 1.066.22 1.79.465 2.428.254.66.593 1.213.1 1.77-.41.558-.94.97-1.48 1.34-.54.373-1.12.675-1.83.92-.7.24-1.45.41-2.52.46-1.066.05-1.406.06-4.122.06s-3.056-.01-4.122-.06c-1.066-.05-1.79-.22-2.428-.465-.66-.254-1.213-.593-1.77-.1-.558-.41-.97-.94-1.34-1.48-.373-.54-.675-1.12-.92-1.83-.24-.7-.41-1.45-.46-2.52C.012 15.056 0 14.716 0 12c0-2.716.012-3.056.062-4.122.05-1.066.22-1.79.465-2.428.254-.66.593-1.213.1-1.77.41-.558.94-.97 1.48-1.34.54-.373 1.12-.675 1.83-.92.7-.24 1.45-.41 2.52-.46 1.066-.05 1.406-.06 4.122-.06Zm0 2.1c-2.616 0-2.946.012-3.964.06c-1.018.05-1.68.216-2.19.42-.51.203-.896.48-1.296.88-.398.4-.677.79-.88 1.296-.205.51-.37 1.172-.42 2.19-.05 1.018-.06 1.348-.06 3.964s.01 2.946.06 3.964c.05 1.018.216 1.68.42 2.19.203.51.48.896.88 1.296.4.398.79.677 1.296.88.51.205 1.172.37 2.19.42 1.018.05 1.348.06 3.964.06s2.946-.01 3.964-.06c1.018-.05 1.68-.216 2.19-.42.51-.203.48-.896.88-1.296.4-.398.79-.677 1.296-.88.51-.205 1.172-.37 2.19-.42 1.018-.05 1.348-.06 3.964-.06Z"/></svg>
+                    <span class="mt-2 text-sm font-medium">إنستجرام</span>
+                    <span class="text-xs text-red-300">@6yepi</span>
+                </a>
+
+                <!-- يوتيوب/تويتش (Gaming/Content) -->
+                <a href="https://youtube.com/@e.0?si=96Z8JgsTZF-pOPbb" target="_blank" class="flex flex-col items-center p-4 bg-red-700 rounded-xl hover:bg-red-600 transition duration-200 w-32">
+                    <!-- SVG Placeholder for YouTube -->
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M21.582 6.186a3.006 3.006 0 0 0-2.012-2.016C17.484 4 12 4 12 4s-5.484 0-7.57 0a3.006 3.006 0 0 0-2.012 2.016C2 8.1 2 12 2 12s0 3.9.008 5.814a3.006 3.006 0 0 0 2.012 2.016C6.516 20 12 20 12 20s5.484 0 7.57 0a3.006 3.006 0 0 0 2.012-2.016C22 15.9 22 12 22 12s0-3.9-.418-5.814ZM9.704 15.688V8.312l6.837 3.688-6.837 3.688Z"/></svg>
+                    <span class="mt-2 text-sm font-medium">يوتيوب</span>
+                    <span class="text-xs text-red-300">@e.0</span>
+                </a>
+
+                <!-- جيت هاب (للمطورين) -->
+                <a href="https://github.com/xxa7x" target="_blank" class="flex flex-col items-center p-4 bg-red-700 rounded-xl hover:bg-red-600 transition duration-200 w-32">
+                    <!-- SVG Placeholder for GitHub -->
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.419 2.864 8.169 6.83 9.49C9.066 21.65 9.176 21.57 9.176 21.41v-1.42c-2.78.604-3.37-1.34-3.37-1.34-.454-1.15-1.11-1.46-1.11-1.46-.907-.62.07-.607.07-.607 1.004.07 1.532 1.03 1.532 1.03.89 1.528 2.33 1.087 2.91.83.09-.646.35-1.087.64-1.334-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98.07-2.68-.09-.646-.37-1.28-.07-2.01 0 0 .74-.236 2.42 1.03C11.1 7.27 12 7.027 12 7.027s.885.244 1.765.488c1.68-1.266 2.42-1.03 2.42-1.03.3 2.146-.43 2.766-.07 4.07.32.7.07 1.59.07 2.68 0 3.84-2.33 4.68-4.55 4.94.36.31.68.91.68 1.83v2.45c0 .16.11.24.34.22A9.995 9.995 0 0 0 22 12c0-5.523-4.477-10-10-10Z" clip-rule="evenodd"/></svg>
+                    <span class="mt-2 text-sm font-medium">جيت هاب</span>
+                    <span class="text-xs text-red-300">/xxa7x</span>
+                </a>
+
+                <!-- ديسكورد (Discord) -->
+                <a href="#" target="_blank" class="flex flex-col items-center p-4 bg-red-700 rounded-xl hover:bg-red-600 transition duration-200 w-32">
+                    <!-- SVG Placeholder for Discord -->
+                    <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.25 0H3.75C1.679 0 0 1.679 0 3.75v16.5C0 22.321 1.679 24 3.75 24h16.5c2.071 0 3.75-1.679 3.75-3.75V3.75C24 1.679 22.321 0 20.25 0ZM8.5 17.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5Zm7-1.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5Zm-4.5-8.5c-4.32 0-7.29 2.53-7.53 2.59.39-.7.7-1.46 1-2.26 1.76-.7 3.55-.7 5.2 0 .28.8.59 1.56 1 2.26-.24-.06-3.21-2.59-7.53-2.59Z"/></svg>
+                    <span class="mt-2 text-sm font-medium">ديسكورد</span>
+                    <span class="text-xs text-red-300">@Sircoper</span>
+                </a>
+
+            </div>
+            <p class="mt-6 text-sm italic text-red-300 text-center">
+                يمكنك النقر على الأيقونات أعلاه لزيارة حساباتي!
+            </p>
+        </div>
+
+        <!-- تذييل الصفحة -->
+        <footer class="text-center pt-6 border-t border-red-600 text-red-300 text-sm">
+            <p>&copy; 2025 علي سعد حلو. جميع الحقوق محفوظة. تصميم بلمسة من اللون الأحمر الداكن.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+
